@@ -25,7 +25,9 @@
   "model_dir": "models1",
 
   "train_set": "script_data.train.index",
-  "val_set": "script_data.val.index",
+  "val_set": {
+    "scripts": "script_data.val.index"
+  },
 
   "eval_harness_tasks": [
     "lambada",
